@@ -1,2 +1,9 @@
 numbers = [int(random.random()*1000)for i in range (10)]
 print(max(numbers))
+__________________________________________________
+import random
+fyrt = lambda x, y: pow(x, (1/y))
+ilin = random.randint(1, 10)
+put = random.randint(1, 100)
+print(fyrt(ilin, put))
+____________________________________________________
