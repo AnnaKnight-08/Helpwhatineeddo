@@ -1,0 +1,23 @@
+creativ = [
+['Синий фон', 4.45, 3.7, 38, 125.6],
+['Черный фон', 19.1, 1.69, 193.6, 45.6],
+['Красный фон', 49.3, 0.95, 3.98, 40.5],
+['Кастомный фон', 233.0, 7.31, 3776.4, 329.6 ],
+['Стандартный', 55.6, 7.96, 375.8]
+print('Цвет фона профиля | EmojiXpress, млн | Instagram, млн | Твиттер, млн | Тумблер, млн')
+for row in creativ:
+  Emo=0
+  Inst=0
+  Twite=0
+  Tumbl=0
+
+  Emo+= row[1]
+  Inst+= row[2]
+  Twite+= row[3]
+  Tumbl+= row[4]
+
+ sred_Emo = Emo / len(creativ)
+ sred_Inst =Inst / len(creativ)
+ sred_Twite = Twite / len(creativ)
+ sred_Tubl =Tubl /len(creativ)
+Не смогла дальше придумать как вывести наибольшее среднее число .
