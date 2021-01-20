@@ -1,0 +1,21 @@
+import string
+class Alphabet:
+    def __init__(self, lang, lett_str):
+        self.lang = lang
+        self.lett = list(lett_str)
+    def print(self):
+        print(self.lett)
+    def letters_nummer(self):
+        len(self.lett)
+class EngAlphabet(Alphabet):
+    __lette_nummer = 26
+    def __init__(self):
+        super().__init__('En', string.ascii_uppercase)
+    def is_en_letter(self, let):
+        if let.upper() in self.let:
+            return True
+        return False
+    def letters_num(self):
+        return EngAlphabet.__lette_nummer
+    def example():
+        print("Engl:\Hello darkness, my old friend,I've come to talk with you again....")
